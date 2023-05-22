@@ -155,19 +155,21 @@ h1{
 
 }
 
+
 .info-menu{
-    background-color: rgb(0, 45, 117);
-    height: 700px;
+    background-color: rgb(0, 117, 59);
+    height: 2000px;
     width: 80%;
     margin-left: 200px;
-    margin-right: 2000px;
-    margin-top: 0px;
+    
+    
 }
 
 .info-content{
+    background-color: red;
     text-align: left;
     margin-left: 10px;
-    padding: 20px ;
+    padding: 20px;
 }
 
 .ul-menu .li-menu{
@@ -205,10 +207,6 @@ h1{
 
 
 
-
-
-
-
 footer{
     position: sticky;
     font-family: 'Raleway', sans-serif;
@@ -216,6 +214,7 @@ footer{
     color: white;
     height: 500px;
     margin-bottom: 0;
+    margin-top: 1200px;
     
 }
 
