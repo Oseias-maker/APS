@@ -194,7 +194,7 @@ h1{
     color: white;
     margin-right: 30px;
 }
-.ul-menu .li-menu:hover{
+.ul-menu .li-menu a:hover{
     background-color: #8eabc8;
     color: rgb(250, 146, 90);
     border-bottom: 1px solid black;

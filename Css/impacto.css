@@ -59,6 +59,7 @@ nav{
     color: rgb(250, 137, 76);
     transition: 1s;
 }
+
 .logo {
     position: absolute;
     display: block;
@@ -129,15 +130,19 @@ main {
 
 h1 {
     text-align: left;
-    margin-left: 220px;
+    margin-left: 200px;
     padding: 20px;
 }
 
-h4 {
-    margin-left: 240px;
+h3 {
+    text-align: left;
+    margin-left: 100px;
+    padding: 20px;
+
 }
 
 .menu {
+    /* background-color: rgb(56, 154, 252); */
     background-color: none;
     height: 80px;
     margin-left: 0;
@@ -160,7 +165,7 @@ h4 {
 
 .info-menu {
     background-color: rgb(0, 24, 61);
-    height: 950px;
+    height: 800px;
     width: 80%;
     margin-left: 200px;
     margin-right: 2000px;
@@ -169,10 +174,9 @@ h4 {
 
 .info-content {
     text-align: left;
-    margin-left: 50px;
+    margin-left: 10px;
     padding: 20px;
 }
-
 
 .ul-menu .li-menu {
     background-color: #a0c2e4;
@@ -181,6 +185,7 @@ h4 {
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 
     margin-left: 10px;
     padding: 15px;
@@ -191,6 +196,7 @@ h4 {
 }
 
 .li-menu {
+    /* border: 1px solid black; */
     border-bottom: 2px solid gray;
 }
 
@@ -212,16 +218,18 @@ h4 {
     cursor: pointer;
 }
 
-
-
-
-
-
-
-
-
-
-
+.li-menu a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    margin-right: 30px;
+}
+.ul-menu .li-menu:hover{
+    background-color: #8eabc8;
+    color: rgb(250, 146, 90);
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
 
 
 footer {
@@ -231,8 +239,7 @@ footer {
     color: white;
     height: 500px;
     margin-bottom: 0;
-    margin-top: 200px;
-
+    margin-top: 100px;
 }
 
 .main-footer {
@@ -346,4 +353,19 @@ footer {
 
 p {
     line-height: 13px;
+}
+
+.info-content {
+    justify-content: center;
+    display: flex;
+}
+
+img {
+    width: 850px;
+    height: 350px;
+}
+
+.li-subm {
+    text-decoration: none;
+    color: white;
 }

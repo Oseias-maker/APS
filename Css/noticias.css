@@ -135,7 +135,6 @@ h1{
 }
 
 .menu{
-    /* background-color: rgb(56, 154, 252); */
     background-color: none;
     height: 80px;
     margin-left: 0;
@@ -189,7 +188,6 @@ h1{
 }
 
 .li-menu{
-    /* border: 1px solid black; */
     border-bottom: 2px solid gray ;
 }
 .li-menu:hover{
@@ -198,7 +196,6 @@ h1{
 }
 
 .li-menu a{
-    /* border: 1px solid black; */
     text-decoration: none;
     cursor: pointer;
     color: white;
